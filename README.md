@@ -22,7 +22,7 @@ The following infrastructure will be scaffolded as Containers on your local mach
 1. Open a Terminal
 2. Clone this repo and specify a name for it locally (the folder name is how Docker will name the Containers)
     * e.g. `git clone https://github.com/ericnograles/docker-baselines.git some-product-1`
-3. Go to the root of the cloned repo and execute `docker-compose up -d && docker-compose exec rabbitmq rabbitmq-plugins enable rabbitmq_management`
+3. Go to the root of the cloned repo and execute `./start.sh`
 
 ## Restarting
 
