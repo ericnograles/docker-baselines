@@ -37,4 +37,4 @@ The following infrastructure will be scaffolded as Containers on your local mach
 1. Open a Terminal
 2. Go to the root of the cloned repo
 3. Execute `docker-compose down`
-4. Execute `docker-compose up -d && docker-compose exec rabbitmq rabbitmq-plugins enable rabbitmq_management`
+4. Execute `docker-compose up -d && ./start.sh`
